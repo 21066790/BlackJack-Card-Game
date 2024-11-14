@@ -1,0 +1,61 @@
+.bg1 {
+    -fx-background-image: url("bgbg1.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: cover;
+    -fx-background-position: center;
+}
+
+
+.bg2 {
+    -fx-background-image: url("bjbackground.jpg");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: cover;
+    -fx-background-position: center;
+}
+.label {
+    -fx-text-fill: white;
+    -fx-font-family: "Bodoni MT Black";
+}
+
+.info-label {
+    -fx-font-family: "Berlin Sans FB";
+    -fx-text-fill: white;
+}
+
+
+.button1 {
+    -fx-text-fill: black;
+    -fx-background-color: black;
+    -fx-font-family: Stencil;
+    -fx-font-size: 20px;
+    -fx-background-image: url("buttonbackground.png");
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.75), 10, 0.5, 0, 3);
+}
+.button2 {
+    -fx-text-fill: white;
+    -fx-background-color: black;
+    -fx-font-family: Stencil;
+    -fx-font-size: 13px;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.75), 10, 0.5, 0, 3);
+}
+.button3 {
+    -fx-text-fill: Black;
+    -fx-background-color: Gray;
+    -fx-font-family: Stencil;
+    -fx-font-size: 20px;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.75), 10, 0.5, 0, 3);
+}
+
+.label-title {
+    -fx-font-family: "Rockwell Extra Bold";
+    -fx-font-size: 36px;
+    -fx-font-weight: bold;
+    -fx-text-fill: White;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.75), 10, 0.5, 0, 3);
+
+}
+
+.progress-bar{
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.75), 10, 0.5, 0, 3);
+
+}

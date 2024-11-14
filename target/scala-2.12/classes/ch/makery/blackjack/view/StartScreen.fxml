@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="800.0" styleClass="bg1" stylesheets="@Style.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ch.makery.blackjack.view.StartController">
+    <children>
+        <VBox alignment="CENTER" layoutX="120.0" layoutY="43.0" prefHeight="675.0" prefWidth="561.0" spacing="10.0">
+            <children>
+                <Label styleClass="label-title" text="Welcome to BlackJack">
+                    <VBox.margin>
+                        <Insets top="100.0" />
+                    </VBox.margin>
+                </Label>
+                <Button alignment="CENTER" mnemonicParsing="false" onAction="#startNewGame" prefHeight="50.0" prefWidth="200.0" styleClass="button1" text="Start Game" textAlignment="CENTER">
+                    <VBox.margin>
+                        <Insets top="20.0" />
+                    </VBox.margin>
+                </Button>
+                <Button alignment="CENTER" mnemonicParsing="false" onAction="#showInformation" prefHeight="50.0" prefWidth="200.0" styleClass="button1" text="Information" textAlignment="CENTER">
+                    <VBox.margin>
+                        <Insets top="10.0" />
+                    </VBox.margin>
+                </Button>
+                <VBox alignment="CENTER" spacing="10.0">
+                    <Label styleClass="label-title" text="Select Difficulty:" />
+                    <Button fx:id="easyButton" alignment="CENTER" onAction="#setEasyDifficulty" prefWidth="100" styleClass="button1" text="Easy" />
+                    <Button fx:id="hardButton" alignment="CENTER" onAction="#setHardDifficulty" prefWidth="100" styleClass="button1" text="Hard" />
+                </VBox>
+            </children>
+        </VBox>
+          <Button fx:id="muteButton" alignment="CENTER" layoutX="33.0" layoutY="702.0" onAction="#toggleMusic" prefHeight="50.0" prefWidth="113.0" styleClass="button3" text="Mute" />
+    </children>
+</AnchorPane>
